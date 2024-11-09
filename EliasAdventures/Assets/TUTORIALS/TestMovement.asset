@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tutorialTitle: How To Move?
   tutorialDescription: If you wanna move then you should swipe the screen.
-  tutorialLearned: 0
+  tutorialLearned: 1
