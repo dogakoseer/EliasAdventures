@@ -11,7 +11,7 @@ public class PlayerMovementNew : MonoBehaviour
     public LayerMask groundLayer;
     public Vector2 crouchScale = new Vector2(1f, 0.5f);
     private Vector2 originalScale;
-
+    public Animator animator;
     private Rigidbody2D rb;
     private bool isGrounded;
     private bool isCrouching;
@@ -41,7 +41,10 @@ public class PlayerMovementNew : MonoBehaviour
         {
             StandUp();
         }
+        AnimationUp();
     }
+
+
 
     void Move()
     {
@@ -73,6 +76,10 @@ public class PlayerMovementNew : MonoBehaviour
             isCrouching = false;
             transform.DOScale(originalScale, 0.2f); // DOTween ile eski boyuta geri dönme
         }
+    }
+    void AnimationUp()
+    {
+        animator.SetFloat("Speed", rb.velocity.magnitude);
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
