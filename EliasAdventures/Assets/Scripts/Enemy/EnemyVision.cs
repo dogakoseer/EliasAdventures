@@ -41,7 +41,7 @@ public class EnemyVision : MonoBehaviour
         {
             if(Physics2D.OverlapCircle(visionPoint.position, 2f,LayerMask.GetMask("Player")) != null)
             {
-                EvntManager.TriggerEvent("RestartSame");
+                EvntManager.TriggerEvent("Player_Die");
             }
         }
     }

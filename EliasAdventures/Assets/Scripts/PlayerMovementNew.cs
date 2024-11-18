@@ -2,9 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using Unity.Mathematics;
+public enum Rot
+{
+    left, right
+}
+
 public class PlayerMovementNew : MonoBehaviour
 {
-       public Joystick joystick;
+    public Joystick joystick;
     public float moveSpeed = 5f;
     public float crouchSpeed = 2f;
     public float jumpForce = 10f;
@@ -15,7 +21,7 @@ public class PlayerMovementNew : MonoBehaviour
     private Rigidbody2D rb;
     private bool isGrounded;
     private bool isCrouching;
-
+    private Rot rot;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -25,7 +31,7 @@ public class PlayerMovementNew : MonoBehaviour
     void Update()
     {
         Move();
-
+        Rotate();
         // Zıplama
         if (joystick.Vertical > 0.5f && isGrounded && !isCrouching)
         {
@@ -43,7 +49,28 @@ public class PlayerMovementNew : MonoBehaviour
         }
         AnimationUp();
     }
+    private void Rotate()
+    {
+        if (joystick.Horizontal > 0)
+        {
+            rot = Rot.right;
+        }
+        else if (joystick.Horizontal < 0)
+        {
+            rot = Rot.left;
+        }
+        LastRotate();
 
+    }
+    private void LastRotate()
+    {
+        if (rot == Rot.right)
+        {
+            transform.rotation = Quaternion.Euler(0, 0, 0);
+        }
+        else
+            transform.rotation = Quaternion.Euler(0, -180, 0);
+    }
 
 
     void Move()
@@ -57,7 +84,12 @@ public class PlayerMovementNew : MonoBehaviour
     void Jump()
     {
         rb.velocity = new Vector2(rb.velocity.x, jumpForce);
-        isGrounded = false;
+        if (isGrounded)
+        {
+            isGrounded = false;
+            animator.SetBool("IsJump", true);
+
+        }
     }
 
     void Crouch()
@@ -65,7 +97,7 @@ public class PlayerMovementNew : MonoBehaviour
         if (!isCrouching)
         {
             isCrouching = true;
-            transform.DOScale(new Vector3(originalScale.x * crouchScale.x, originalScale.y * crouchScale.y, 1f), 0.2f); // DOTween ile yumuşak eğilme
+            animator.SetBool("IsCrouch", true);
         }
     }
 
@@ -74,19 +106,24 @@ public class PlayerMovementNew : MonoBehaviour
         if (isCrouching)
         {
             isCrouching = false;
-            transform.DOScale(originalScale, 0.2f); // DOTween ile eski boyuta geri dönme
+            animator.SetBool("IsCrouch", false);
         }
     }
     void AnimationUp()
     {
-        animator.SetFloat("Speed", rb.velocity.magnitude);
+        animator.SetFloat("Speed", math.abs(rb.velocity.x / moveSpeed));
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.layer == LayerMask.NameToLayer("Ground"))
         {
-            isGrounded = true;
+            if (isGrounded == false)
+            {
+                isGrounded = true;
+                animator.SetBool("IsJump", false);
+            }
+
         }
     }
 
