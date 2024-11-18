@@ -19,7 +19,7 @@ public class CharacterMovement : MonoBehaviour
 
     }
 
-    void Update()
+    void FixedUpdate()
     {
         if (Input.touchCount > 0)
         {
@@ -81,7 +81,7 @@ public class CharacterMovement : MonoBehaviour
     }
     void StartMoving(Vector3 direction)
     {
-        moveTween?.Kill(); // Önceki hareketi durdur.
+        moveTween?.Kill(); // ï¿½nceki hareketi durdur.
         moveTween = transform.DOBlendableMoveBy(direction * moveSpeed, 0.5f).SetLoops(-1, LoopType.Incremental);
     }
 
@@ -104,12 +104,12 @@ public class CharacterMovement : MonoBehaviour
         {
             isGrounded = false;
             transform.DOMoveY(transform.position.y + jumpHeight, 0.5f).SetEase(Ease.OutQuad).OnComplete(() => {
-                isGrounded = false; // Yere iniþten sonra sýfýrlanmazsa burada false olabilir.
+                isGrounded = false; // Yere iniï¿½ten sonra sï¿½fï¿½rlanmazsa burada false olabilir.
             });
         }
     }
 
-    // Zemine temas kontrolü - overlap circile
+    // Zemine temas kontrolï¿½ - overlap circile
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Ground")) 
