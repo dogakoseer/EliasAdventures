@@ -87,7 +87,7 @@ public class PlayerMovementNew : MonoBehaviour
         if (isGrounded)
         {
             isGrounded = false;
-            animator.SetBool("IsJump", true);
+            animator.SetBool("IsJump",true);
 
         }
     }
