@@ -123,9 +123,10 @@ public class PlayerMovementNew : MonoBehaviour
                 isGrounded = true;
                 animator.SetBool("IsJump", false);
             }
-
+        }
+        if(collision.gameObject.layer == LayerMask.NameToLayer("Death"))
+        {
+            EvntManager.TriggerEvent("Player_Die");
         }
     }
-
-
 }
