@@ -23,6 +23,7 @@ public class PlayerMovementNew : MonoBehaviour
     private bool isCrouching;
     private Rot rot;
     private CapsuleCollider2D col;
+    public AudioSource audioSource;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -50,6 +51,7 @@ public class PlayerMovementNew : MonoBehaviour
             StandUp();
         }
         AnimationUp();
+        Sound();
     }
     private void Rotate()
     {
@@ -81,6 +83,21 @@ public class PlayerMovementNew : MonoBehaviour
         float speed = isCrouching ? crouchSpeed : moveSpeed;
         Vector2 moveDirection = new Vector2(horizontalInput * speed, rb.velocity.y);
         rb.velocity = moveDirection;
+
+        
+    }
+
+    void Sound()
+    {
+        if(rb.velocity.magnitude != 0)
+        {
+            audioSource.Play();
+            Debug.Log("playing");
+        }
+        else
+        {
+            audioSource.Stop();
+        }
     }
 
     void Jump()
