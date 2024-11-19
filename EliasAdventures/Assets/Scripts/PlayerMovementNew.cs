@@ -22,9 +22,11 @@ public class PlayerMovementNew : MonoBehaviour
     private bool isGrounded;
     private bool isCrouching;
     private Rot rot;
+    private CapsuleCollider2D col;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+        col = GetComponent<CapsuleCollider2D>();
         originalScale = transform.localScale;
     }
 
@@ -87,7 +89,7 @@ public class PlayerMovementNew : MonoBehaviour
         if (isGrounded)
         {
             isGrounded = false;
-            animator.SetBool("IsJump",true);
+            animator.SetBool("IsJump", true);
 
         }
     }
@@ -98,6 +100,7 @@ public class PlayerMovementNew : MonoBehaviour
         {
             isCrouching = true;
             animator.SetBool("IsCrouch", true);
+            col.size = col.size / 2;
         }
     }
 
@@ -107,6 +110,7 @@ public class PlayerMovementNew : MonoBehaviour
         {
             isCrouching = false;
             animator.SetBool("IsCrouch", false);
+            col.size = col.size * 2;
         }
     }
     void AnimationUp()
@@ -124,7 +128,7 @@ public class PlayerMovementNew : MonoBehaviour
                 animator.SetBool("IsJump", false);
             }
         }
-        if(collision.gameObject.layer == LayerMask.NameToLayer("Death"))
+        if (collision.gameObject.layer == LayerMask.NameToLayer("Death"))
         {
             EvntManager.TriggerEvent("Player_Die");
         }
