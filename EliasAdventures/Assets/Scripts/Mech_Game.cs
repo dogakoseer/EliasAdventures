@@ -7,11 +7,11 @@ public class Mech_Game : MonoBehaviour
 {
     public bool canInteractable;
     public bool interacted;
-
     public Button InteractionButton;
     
     public virtual void Start()
     {
+
         canInteractable = false;
         interacted = false;
     }
@@ -19,7 +19,6 @@ public class Mech_Game : MonoBehaviour
     {
         if (!interacted)
         {
-
             canInteractable = true;
             InteractionButton.onClick.AddListener(Apply);
             InteractionButton.gameObject.SetActive(true);
@@ -33,7 +32,6 @@ public class Mech_Game : MonoBehaviour
     }
     public virtual void Applied()
     {
-        MechPanel.SetActive(false);
         InteractionButton.onClick.RemoveAllListeners();
         InteractionButton.gameObject.SetActive(false);
         interacted = true;

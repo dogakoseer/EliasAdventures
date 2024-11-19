@@ -11,6 +11,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LevelMenu.unity
     guid: 75d7dd14659d7be43a743598d112d20b
+  - enabled: 1
+    path: Assets/Scenes/WinScreen.unity
+    guid: a759bb62a87b1ad4484952907ea5f762
+  - enabled: 1
+    path: Assets/Scenes/SoonScreen.unity
+    guid: 398be2296bd425644a0af09b584dcda9
   m_configObjects:
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 07ccc45af48242943bed28ea231f83ea, type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000, guid: 15c236e16c6462d4bbb3dd06fe545a90, type: 2}
