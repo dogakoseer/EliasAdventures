@@ -33,6 +33,7 @@ public class Mech_Game : MonoBehaviour
     }
     public virtual void Applied()
     {
+        MechPanel.SetActive(false);
         InteractionButton.onClick.RemoveAllListeners();
         InteractionButton.gameObject.SetActive(false);
         interacted = true;
