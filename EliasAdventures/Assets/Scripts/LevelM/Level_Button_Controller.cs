@@ -13,6 +13,7 @@ public class Level_Button_Controller : MonoBehaviour
     private void Start()
     {   
         if(data == null) Debug.LogWarning(this.name + " is missing data");
+        GetComponent<Image>().sprite = data.sprite;
         Write();
     }
     void Write()
