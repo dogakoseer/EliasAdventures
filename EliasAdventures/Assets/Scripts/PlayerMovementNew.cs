@@ -36,10 +36,7 @@ public class PlayerMovementNew : MonoBehaviour
         Move();
         Rotate();
         // Zıplama
-        if (joystick.Vertical > 0.5f && isGrounded && !isCrouching)
-        {
-            Jump();
-        }
+
 
         // Eğilme
         if (joystick.Vertical < -0.5f && isGrounded)
@@ -84,12 +81,12 @@ public class PlayerMovementNew : MonoBehaviour
         Vector2 moveDirection = new Vector2(horizontalInput * speed, rb.velocity.y);
         rb.velocity = moveDirection;
 
-        
+
     }
 
     void Sound()
     {
-        if(rb.velocity.magnitude != 0)
+        if (rb.velocity.magnitude != 0)
         {
             audioSource.Play();
             Debug.Log("playing");
@@ -100,11 +97,12 @@ public class PlayerMovementNew : MonoBehaviour
         }
     }
 
-    void Jump()
+    public void Jump()
     {
-        rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         if (isGrounded)
         {
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+
             isGrounded = false;
             animator.SetBool("IsJump", true);
 

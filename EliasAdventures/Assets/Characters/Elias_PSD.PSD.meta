@@ -35,7 +35,7 @@ ScriptedImporter:
     ignoreMipmapLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
-    spriteMode: 1
+    spriteMode: 2
     spriteExtrude: 1
     spriteMeshType: 1
     alignment: 0
@@ -76,18 +76,18 @@ ScriptedImporter:
     textureFormatSet: 0
     applyGammaDecoding: 0
   spriteImportData:
-  - name: Elias_PSD_1
+  - name: 
     originalName: 
-    pivot: {x: 0.5, y: 0.5}
+    pivot: {x: 0, y: 0}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 0
       y: 0
-      width: 2732
-      height: 2048
-    spriteID: 15e4933f47239494d92ea449def418c6
+      width: 0
+      height: 0
+    spriteID: 
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -99,186 +99,18 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData: []
   rigSpriteImportData:
-  - name: Elias_PSD_0
+  - name: Sag Kol
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1418
-      y: 874
-      width: 68
-      height: 138
-    spriteID: 050a11aff5537cc45b0ec3f947bf348b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1418, y: 874}
-    spritePosition: {x: 0, y: 0}
-  - name: Elias_PSD_1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1428
-      y: 747
-      width: 74
-      height: 119
-    spriteID: 48f8d52364ee225428abb7a707f801a9
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1428, y: 747}
-    spritePosition: {x: 0, y: 0}
-  - name: Elias_PSD_2
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1428
-      y: 606
-      width: 76
-      height: 132
-    spriteID: 7b0f289835466e749956b25cc162b3b9
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1428, y: 606}
-    spritePosition: {x: 0, y: 0}
-  - name: Elias_PSD_3
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1428
-      y: 415
-      width: 73
-      height: 183
-    spriteID: c247dcdd9169d054387172c8d23f02b8
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1428, y: 415}
-    spritePosition: {x: 0, y: 0}
-  - name: Elias_PSD_4
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1429
-      y: 226
-      width: 74
-      height: 181
-    spriteID: 78fb789405a55e94581abee7b7d8606d
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1429, y: 226}
-    spritePosition: {x: 0, y: 0}
-  - name: Elias_PSD_5
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1517
-      y: 238
+      x: 293
+      y: 4
       width: 33
-      height: 103
-    spriteID: 9caf50e063a5ff5429df53b81efff5b8
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1517, y: 238}
-    spritePosition: {x: 0, y: 0}
-  - name: Elias_PSD_6
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1559
-      y: 237
-      width: 34
-      height: 44
-    spriteID: 7e74554984bf4874a8c4fe5d007a4b36
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1559, y: 237}
-    spritePosition: {x: 0, y: 0}
-  - name: Elias_PSD_7
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1428
-      y: 5
-      width: 81
-      height: 213
-    spriteID: 7aa74c294960efa4ba17798f951e61f0
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1428, y: 5}
-    spritePosition: {x: 0, y: 0}
-  - name: Elias_PSD_8
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1518
-      y: 125
-      width: 62
       height: 104
-    spriteID: 724162f3330f64b47b4a23338a28dee3
+    spriteID: 108217074e028104599f3859b2665c15
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -286,20 +118,20 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1518, y: 125}
-    spritePosition: {x: 0, y: 0}
-  - name: Elias_PSD_9
+    uvTransform: {x: 293, y: 4}
+    spritePosition: {x: 21, y: 316}
+  - name: Sag Bilek
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1588
-      y: 126
-      width: 6
-      height: 11
-    spriteID: 2a1003c8d1ad4874fbd67e41ce85d623
+      x: 93
+      y: 193
+      width: 58
+      height: 138
+    spriteID: 22068cd67cc08314487fc1fc892c5e10
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -307,20 +139,20 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1588, y: 126}
-    spritePosition: {x: 0, y: 0}
-  - name: Elias_PSD_10
+    uvTransform: {x: 93, y: 193}
+    spritePosition: {x: 22, y: 201}
+  - name: Canta
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 5
-      y: 5
-      width: 109
-      height: 92
-    spriteID: 202a35aaf85f6db419b6bf05a46e2623
+      x: 93
+      y: 451
+      width: 35
+      height: 44
+    spriteID: d8755e4b29864e340b02cad8985ff411
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -328,20 +160,20 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 5, y: 5}
-    spritePosition: {x: 0, y: 0}
-  - name: Elias_PSD_11
+    uvTransform: {x: 93, y: 451}
+    spritePosition: {x: 21, y: 238}
+  - name: Tshirt
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 1518
+      x: 4
       y: 4
       width: 81
-      height: 113
-    spriteID: 9b7f176c3d52e174195e0cf6a74537ca
+      height: 214
+    spriteID: 0dc8c7afe60157e4fb78957c7fa6c5b3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -349,302 +181,182 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 1518, y: 4}
-    spritePosition: {x: 0, y: 0}
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 12, y: 228}
+  - name: Sag Ust Bacak
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 106
+      width: 76
+      height: 133
+    spriteID: c736bc2be954ebe4ab972eae8da52224
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 106}
+    spritePosition: {x: 15, y: 149}
+  - name: Sag Alt Bacak
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 226
+      width: 74
+      height: 183
+    spriteID: 60862d5a3f124a54d8f4d509df85fdc4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 226}
+    spritePosition: {x: 13, y: 0}
+  - name: Goz
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 136
+      y: 451
+      width: 6
+      height: 12
+    spriteID: cdc3910a18237284588e179ecd636e2e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 136, y: 451}
+    spritePosition: {x: 77, y: 477}
+  - name: Kafa
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 247
+      width: 82
+      height: 113
+    spriteID: d0338f9c9f6d3ca41b6eb4303815c919
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 247}
+    spritePosition: {x: 10, y: 411}
+  - name: Sol Ust Bacak
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 368
+      width: 74
+      height: 119
+    spriteID: 6ebf7f1cf849b794da66957dc897a9b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 368}
+    spritePosition: {x: 16, y: 156}
+  - name: Sol Alt Bacak
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 93
+      y: 4
+      width: 74
+      height: 181
+    spriteID: 28307c1d3692d5349aefd4f3b4413468
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 93, y: 4}
+    spritePosition: {x: 0, y: 1}
+  - name: Sol Kol
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 93
+      y: 339
+      width: 63
+      height: 104
+    spriteID: 8bf0aeea18ad14645aa641a42702f8b8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 93, y: 339}
+    spritePosition: {x: 20, y: 318}
+  - name: Sol Bilek
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 175
+      y: 4
+      width: 110
+      height: 94
+    spriteID: 60ab4325db184b54ba783fbef7ccd81a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 175, y: 4}
+    spritePosition: {x: 53, y: 251}
   characterData:
-    bones:
-    - name: Main_Bone
-      guid: 462c4393071b830469413f389412a376
-      position: {x: 1254.7954, y: 1038.9194, z: 0}
-      rotation: {x: 0, y: 0, z: 0.999941, w: 0.010866266}
-      length: 17.541492
-      parentId: -1
-      color:
-        serializedVersion: 2
-        rgba: 4278190335
-    - name: Back_1
-      guid: 464fad6f17c71514399c7e78b267da1f
-      position: {x: 23.810057, y: -11.339899, z: 0}
-      rotation: {x: 0, y: -0, z: -0.78559375, w: 0.61874264}
-      length: 50.475056
-      parentId: 0
-      color:
-        serializedVersion: 2
-        rgba: 4278255615
-    - name: Back_2
-      guid: c2e098487b7a92945944244bb5b4cfa2
-      position: {x: 50.47507, y: -0.000030256448, z: 0}
-      rotation: {x: 0, y: 0, z: 0.3679249, w: 0.9298555}
-      length: 45.524986
-      parentId: 1
-      color:
-        serializedVersion: 2
-        rgba: 4278255360
-    - name: Back_3
-      guid: 1a4e24635388d8e4283b6ed529d9632f
-      position: {x: 45.524967, y: 0.000025376936, z: 0}
-      rotation: {x: 0, y: 0, z: -0.28024352, w: 0.959929}
-      length: 44.314484
-      parentId: 2
-      color:
-        serializedVersion: 2
-        rgba: 4294967040
-    - name: Back_4
-      guid: 73babcaf869d7d04895e12c52d369932
-      position: {x: 44.31451, y: -0.0000004842168, z: 0}
-      rotation: {x: 0, y: 0, z: -0.35395622, w: 0.935262}
-      length: 29.626295
-      parentId: 3
-      color:
-        serializedVersion: 2
-        rgba: 4294901760
-    - name: Head
-      guid: 4f62f0098de15d64cae49a14b4ba7106
-      position: {x: 29.626253, y: 0.000033709162, z: 0}
-      rotation: {x: 0, y: 0, z: 0.4100986, w: 0.91204125}
-      length: 56.695496
-      parentId: 4
-      color:
-        serializedVersion: 2
-        rgba: 4294902015
-    - name: Elbow_L
-      guid: 3f8e53eac84cf5141a49e4cc486539df
-      position: {x: 78.249084, y: 0.000007337934, z: 0}
-      rotation: {x: 0, y: 0, z: 0.3283886, w: 0.9445427}
-      length: 77.10374
-      parentId: 14
-      color:
-        serializedVersion: 2
-        rgba: 4294901888
-    - name: Hand_L
-      guid: d73d07efe1ebbf94ab324f12744bc21f
-      position: {x: 77.10382, y: -0.000097617696, z: 0}
-      rotation: {x: 0, y: 0, z: 0.036020137, w: 0.99935114}
-      length: 18.785818
-      parentId: 6
-      color:
-        serializedVersion: 2
-        rgba: 4286578943
-    - name: Leg_R
-      guid: f9f2f48f5d916204eb8c24a494df13bf
-      position: {x: 21.461847, y: 6.5229564, z: 0}
-      rotation: {x: 0, y: -0, z: 0.77624136, w: 0.6304358}
-      length: 119.04697
-      parentId: 0
-      color:
-        serializedVersion: 2
-        rgba: 4278255615
-    - name: Knee_R
-      guid: 84e988e6590e37745a22c3cd548c5383
-      position: {x: 119.04695, y: 0.000052022624, z: 0}
-      rotation: {x: 0, y: 0, z: -0.20729424, w: 0.97827864}
-      length: 112.08676
-      parentId: 8
-      color:
-        serializedVersion: 2
-        rgba: 4278255360
-    - name: Foot_R
-      guid: 0c588355359628047bcf9ab64c9fd738
-      position: {x: 112.08673, y: 0.0000023095736, z: 0}
-      rotation: {x: 0, y: 0, z: 0.47233447, w: 0.8814194}
-      length: 27.395617
-      parentId: 9
-      color:
-        serializedVersion: 2
-        rgba: 4294967040
-    - name: Leg_L
-      guid: ff756b61c8fbbed40b62aacd2ddf86dd
-      position: {x: 28.731482, y: 7.6757135, z: 0}
-      rotation: {x: 0, y: -0, z: 0.7850497, w: 0.6194328}
-      length: 113.48624
-      parentId: 0
-      color:
-        serializedVersion: 2
-        rgba: 4294901760
-    - name: Knee_L
-      guid: 98c7875528cc90a43a076335011397f3
-      position: {x: 113.48621, y: 0.00007210446, z: 0}
-      rotation: {x: 0, y: 0, z: -0.21961167, w: 0.97558737}
-      length: 116.00572
-      parentId: 11
-      color:
-        serializedVersion: 2
-        rgba: 4294902015
-    - name: Foot_L
-      guid: 5b1a175dd94301c40b30b78d3f0eef22
-      position: {x: 116.00577, y: -0.000047631034, z: 0}
-      rotation: {x: 0, y: 0, z: 0.42729455, w: 0.9041125}
-      length: 30.185518
-      parentId: 12
-      color:
-        serializedVersion: 2
-        rgba: 4278190335
-    - name: Shoulder_L_5
-      guid: afd658edc6a46bd41a7138d02295dc86
-      position: {x: 11.537996, y: -23.169935, z: 0}
-      rotation: {x: 0, y: -0, z: -0.8782697, w: 0.47816563}
-      length: 78.249084
-      parentId: 4
-      color:
-        serializedVersion: 2
-        rgba: 4278255488
-    - name: Arm_R
-      guid: bd6e3d7e6dab25b4ea15dc14628f7204
-      position: {x: 2.0073886, y: -15.871742, z: 0}
-      rotation: {x: 0, y: -0, z: -0.93809, w: 0.3463916}
-      length: 79.484825
-      parentId: 4
-      color:
-        serializedVersion: 2
-        rgba: 4294901760
-    - name: Elbow_R
-      guid: 308409bd9443cf94baad368f30163ba5
-      position: {x: 79.48482, y: -0.000063552885, z: 0}
-      rotation: {x: 0, y: 0, z: 0.23527128, w: 0.9719298}
-      length: 84.37166
-      parentId: 15
-      color:
-        serializedVersion: 2
-        rgba: 4294902015
-    - name: Hand_R
-      guid: 0d07b2fff52a2ce4aa7855963aa8f098
-      position: {x: 84.37171, y: 0.00003596343, z: 0}
-      rotation: {x: 0, y: 0, z: -0.090466246, w: 0.99589956}
-      length: 19.82925
-      parentId: 16
-      color:
-        serializedVersion: 2
-        rgba: 4278190335
-    - name: Foot_R_6
-      guid: 5d44397c63508e2458471d9e54e5a36d
-      position: {x: 27.395628, y: 0.000048730097, z: 0}
-      rotation: {x: 0, y: 0, z: 0.2883183, w: 0.9575347}
-      length: 23.876879
-      parentId: 10
-      color:
-        serializedVersion: 2
-        rgba: 4278255488
-    - name: Foot_L_7
-      guid: 9e389abe1de399147ba8073e9e471fbb
-      position: {x: 30.18557, y: -0.000002612098, z: 0}
-      rotation: {x: 0, y: 0, z: 0.35115308, w: 0.9363181}
-      length: 21.191732
-      parentId: 13
-      color:
-        serializedVersion: 2
-        rgba: 4286643968
-    parts:
-    - spritePosition:
-        x: 1223
-        y: 1081
-        width: 33
-        height: 104
-      spriteId: 55a717b280596f14a9c5189e7b6d67dc
-      bones: 0f00000010000000
-      parentGroup: 0
-      order: 0
-    - spritePosition:
-        x: 1224
-        y: 966
-        width: 58
-        height: 138
-      spriteId: 57816c8d63a99f7499184746daa3de82
-      bones: 11000000100000000f000000
-      parentGroup: 0
-      order: 0
-    - spritePosition:
-        x: 1223
-        y: 1003
-        width: 35
-        height: 44
-      spriteId: e5b9aa7648c41294cb6c058fc24a33c2
-      bones: 
-      parentGroup: 0
-      order: 0
-    - spritePosition:
-        x: 1214
-        y: 993
-        width: 81
-        height: 214
-      spriteId: 2ef52e6bf724fc84dba7669bd084e580
-      bones: 04000000030000000200000001000000
-      parentGroup: 0
-      order: 0
-    - spritePosition:
-        x: 1217
-        y: 914
-        width: 76
-        height: 133
-      spriteId: 14d777bf487ad5f4e9e79f7bb2cde2da
-      bones: 0900000008000000
-      parentGroup: 0
-      order: 0
-    - spritePosition:
-        x: 1215
-        y: 765
-        width: 74
-        height: 183
-      spriteId: 290374c7a31465348ac00ca2915c39df
-      bones: 0a000000090000000800000012000000
-      parentGroup: 0
-      order: 0
-    - spritePosition:
-        x: 1279
-        y: 1242
-        width: 6
-        height: 12
-      spriteId: 323b02098ebeeec4e81562792c7db5d5
-      bones: 05000000
-      parentGroup: 0
-      order: 0
-    - spritePosition:
-        x: 1212
-        y: 1176
-        width: 82
-        height: 113
-      spriteId: be5b58b4c09f38f4bae84899898263b5
-      bones: 0400000005000000
-      parentGroup: 0
-      order: 0
-    - spritePosition:
-        x: 1218
-        y: 921
-        width: 74
-        height: 119
-      spriteId: 26e1acc2d05460f42a003c24d9014447
-      bones: 0b000000
-      parentGroup: 0
-      order: 0
-    - spritePosition:
-        x: 1201
-        y: 766
-        width: 75
-        height: 181
-      spriteId: 434424ac1f94a3742a9df28389603d76
-      bones: 0d0000000c0000000b00000013000000
-      parentGroup: 0
-      order: 0
-    - spritePosition:
-        x: 1222
-        y: 1083
-        width: 63
-        height: 104
-      spriteId: 03fdbcab3ea9e544b955ad949ca3a3e9
-      bones: 060000000e000000
-      parentGroup: 0
-      order: 0
-    - spritePosition:
-        x: 1255
-        y: 1016
-        width: 1416
-        height: 930
-      spriteId: 311bd822ec862e04e9ab4d3a489d98d1
-      bones: 06000000070000000e000000
-      parentGroup: 0
-      order: 0
+    bones: []
+    parts: []
     dimension: {x: 0, y: 0}
     characterGroups: []
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0, y: 0}
     boneReadOnly: 0
   sharedRigSpriteImportData: []
   sharedRigCharacterData:
@@ -661,7 +373,7 @@ ScriptedImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     forceMaximumCompressionQuality_BC6H_BC7: 0
     crunchedCompression: 0
@@ -679,9 +391,33 @@ ScriptedImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: iPhone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   mosaicLayers: 1
   characterMode: 1
-  documentPivot: {x: 0.5, y: 0}
+  documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
   layerMappingOption: 2
@@ -696,16 +432,16 @@ ScriptedImporter:
   spriteCategoryList:
     categories: []
   spritePackingTag: 
-  resliceFromLayer: 0
+  resliceFromLayer: 1
   mosaicPSDLayers: []
   rigPSDLayers:
   - name: Sag Kol
     spriteName: Sag Kol
     isGroup: 0
     parentIndex: -1
-    spriteID: 55a717b280596f14a9c5189e7b6d67dc
-    layerID: 13
-    mosaicPosition: {x: 1517, y: 237}
+    spriteID: 108217074e028104599f3859b2665c15
+    layerID: 0
+    mosaicPosition: {x: 293, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -713,9 +449,9 @@ ScriptedImporter:
     spriteName: Sag Bilek
     isGroup: 0
     parentIndex: -1
-    spriteID: 57816c8d63a99f7499184746daa3de82
-    layerID: 12
-    mosaicPosition: {x: 1428, y: 874}
+    spriteID: 22068cd67cc08314487fc1fc892c5e10
+    layerID: 141459260
+    mosaicPosition: {x: 93, y: 193}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -723,9 +459,9 @@ ScriptedImporter:
     spriteName: Canta
     isGroup: 0
     parentIndex: -1
-    spriteID: e5b9aa7648c41294cb6c058fc24a33c2
-    layerID: 11
-    mosaicPosition: {x: 1558, y: 237}
+    spriteID: d8755e4b29864e340b02cad8985ff411
+    layerID: -1230764551
+    mosaicPosition: {x: 93, y: 451}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -733,9 +469,9 @@ ScriptedImporter:
     spriteName: Tshirt
     isGroup: 0
     parentIndex: -1
-    spriteID: 2ef52e6bf724fc84dba7669bd084e580
-    layerID: 10
-    mosaicPosition: {x: 1428, y: 4}
+    spriteID: 0dc8c7afe60157e4fb78957c7fa6c5b3
+    layerID: 2119790050
+    mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -743,29 +479,29 @@ ScriptedImporter:
     spriteName: Sag Ust Bacak
     isGroup: 0
     parentIndex: -1
-    spriteID: 14d777bf487ad5f4e9e79f7bb2cde2da
-    layerID: 9
-    mosaicPosition: {x: 1428, y: 606}
+    spriteID: c736bc2be954ebe4ab972eae8da52224
+    layerID: 1278073645
+    mosaicPosition: {x: 175, y: 106}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: 'Sag Alt Bacak '
-    spriteName: 'Sag Alt Bacak '
+  - name: Sag Alt Bacak
+    spriteName: Sag Alt Bacak
     isGroup: 0
     parentIndex: -1
-    spriteID: 290374c7a31465348ac00ca2915c39df
-    layerID: 8
-    mosaicPosition: {x: 1428, y: 415}
+    spriteID: 60862d5a3f124a54d8f4d509df85fdc4
+    layerID: -1322287498
+    mosaicPosition: {x: 4, y: 226}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: 'Goz '
-    spriteName: 'Goz '
+  - name: Goz
+    spriteName: Goz
     isGroup: 0
     parentIndex: -1
-    spriteID: 323b02098ebeeec4e81562792c7db5d5
-    layerID: 7
-    mosaicPosition: {x: 1588, y: 125}
+    spriteID: cdc3910a18237284588e179ecd636e2e
+    layerID: 728636394
+    mosaicPosition: {x: 136, y: 451}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -773,9 +509,9 @@ ScriptedImporter:
     spriteName: Kafa
     isGroup: 0
     parentIndex: -1
-    spriteID: be5b58b4c09f38f4bae84899898263b5
-    layerID: 6
-    mosaicPosition: {x: 1517, y: 4}
+    spriteID: d0338f9c9f6d3ca41b6eb4303815c919
+    layerID: 190216321
+    mosaicPosition: {x: 175, y: 247}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -783,9 +519,9 @@ ScriptedImporter:
     spriteName: Sol Ust Bacak
     isGroup: 0
     parentIndex: -1
-    spriteID: 26e1acc2d05460f42a003c24d9014447
-    layerID: 5
-    mosaicPosition: {x: 1428, y: 747}
+    spriteID: 6ebf7f1cf849b794da66957dc897a9b0
+    layerID: 345281422
+    mosaicPosition: {x: 175, y: 368}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -793,9 +529,9 @@ ScriptedImporter:
     spriteName: Sol Alt Bacak
     isGroup: 0
     parentIndex: -1
-    spriteID: 434424ac1f94a3742a9df28389603d76
-    layerID: 4
-    mosaicPosition: {x: 1428, y: 226}
+    spriteID: 28307c1d3692d5349aefd4f3b4413468
+    layerID: 1416062019
+    mosaicPosition: {x: 93, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -803,9 +539,9 @@ ScriptedImporter:
     spriteName: Sol Kol
     isGroup: 0
     parentIndex: -1
-    spriteID: 03fdbcab3ea9e544b955ad949ca3a3e9
-    layerID: 3
-    mosaicPosition: {x: 1517, y: 125}
+    spriteID: 8bf0aeea18ad14645aa641a42702f8b8
+    layerID: -1030805098
+    mosaicPosition: {x: 93, y: 339}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -813,26 +549,16 @@ ScriptedImporter:
     spriteName: Sol Bilek
     isGroup: 0
     parentIndex: -1
-    spriteID: 311bd822ec862e04e9ab4d3a489d98d1
-    layerID: 2
-    mosaicPosition: {x: 4, y: 4}
+    spriteID: 60ab4325db184b54ba783fbef7ccd81a
+    layerID: -1829510499
+    mosaicPosition: {x: 175, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Arka Plan
-    spriteName: 
-    isGroup: 0
-    parentIndex: -1
-    spriteID: a5adb41df423d3f4e956de00b3ab002f
-    layerID: 1
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 0
   sharedRigPSDLayers: []
   pSDLayerImportSetting: []
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638711130179570745
   spriteSizeExpandChanged: 0
   generateGOHierarchy: 0
   textureAssetName: 
