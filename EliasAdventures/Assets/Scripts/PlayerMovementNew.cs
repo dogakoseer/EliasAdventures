@@ -146,6 +146,7 @@ public class PlayerMovementNew : MonoBehaviour
         if (collision.gameObject.layer == LayerMask.NameToLayer("Death"))
         {
             EvntManager.TriggerEvent("Player_Die");
+            Debug.Log("öldü");
         }
     }
 }
