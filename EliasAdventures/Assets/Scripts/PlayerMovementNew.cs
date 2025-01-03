@@ -140,7 +140,7 @@ public class PlayerMovementNew : MonoBehaviour
             if (isGrounded == false)
             {
                 isGrounded = true;
-                animator.SetBool("IsJump", false);
+                //animator.SetBool("IsJump", false);
             }
         }
         if (collision.gameObject.layer == LayerMask.NameToLayer("Death"))
