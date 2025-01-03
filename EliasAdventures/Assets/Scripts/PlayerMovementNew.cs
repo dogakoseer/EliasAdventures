@@ -104,7 +104,7 @@ public class PlayerMovementNew : MonoBehaviour
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
 
             isGrounded = false;
-            animator.SetBool("IsJump", true);
+            animator.SetTrigger("Jumpo");
 
         }
     }
@@ -140,7 +140,7 @@ public class PlayerMovementNew : MonoBehaviour
             if (isGrounded == false)
             {
                 isGrounded = true;
-                //animator.SetBool("IsJump", false);
+                animator.SetTrigger("JumpoDown");
             }
         }
         if (collision.gameObject.layer == LayerMask.NameToLayer("Death"))
