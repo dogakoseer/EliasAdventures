@@ -7,20 +7,17 @@ public class DoorMechanic : MonoBehaviour
 
     public GameObject answerUI;
     public GameObject door;
-    public BoxCollider2D collider;
+    public Collider2D col;
     private bool isUnlocked = false;
 
-    private void Start()
-    {
-        collider.enabled = false;
-    }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player") && !isUnlocked)
         {
             answerUI.SetActive(true);
-            collider.enabled = true;
+            col.isTrigger = false;
         }
     }
 
@@ -29,7 +26,6 @@ public class DoorMechanic : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             answerUI.SetActive(false);
-            collider.enabled = false;
         }
     }
 
@@ -38,9 +34,9 @@ public class DoorMechanic : MonoBehaviour
         if (isCorrect)
         {
             isUnlocked = true;
-            collider.enabled = false;
             door.SetActive(false);
             answerUI.SetActive(false);
+            col.isTrigger = true;
         }
         else
         {
