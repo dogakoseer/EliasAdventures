@@ -68,16 +68,23 @@ public class Olta : MonoBehaviour
             isDone = true;
             panel.SetActive(false);
             sliderTween.Kill();
-
+            Invoke("NextLevel", 1f);
             //win condition
         }
         else
         {
             Debug.Log("KAÇIRDIN!");
+
             isFishing = false;
             sliderTween.Kill();
         }
 
 
+    }
+
+    public void NextLevel()
+    {
+        Debug.Log("Game has ended");
+        //buraya yeni sahneyi açacak kod gelecek
     }
 }
